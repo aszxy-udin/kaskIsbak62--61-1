@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 const ATLANTIC_BASE_URL = 'https://atlantich2h.com';
 const API_KEY = '#';
-const MONGODB_URI = '#';
+const MONGODB_URI = 'mongodb+srv://kaisenstr:kaisenstrnew@cluster0.mrkcydf.mongodb.net/aszxydb?retryWrites=true&w=majority&appName=Cluster0';
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
